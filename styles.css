@@ -1,0 +1,161 @@
+/* -----------------------------------
+FORCE DARK BACKGROUND
+----------------------------------- */
+
+html,
+body,
+.stApp {
+
+    background-color: #020617 !important;
+
+    color: white !important;
+}
+
+/* -----------------------------------
+MAIN CONTAINERS
+----------------------------------- */
+
+.block-container {
+
+    background-color: #020617 !important;
+}
+
+/* -----------------------------------
+SIDEBAR
+----------------------------------- */
+
+section[data-testid="stSidebar"] {
+
+    background-color: #0f172a !important;
+
+    border-right: 1px solid rgba(255,255,255,0.08);
+}
+
+/* -----------------------------------
+TEXT COLORS
+----------------------------------- */
+
+h1, h2, h3, h4, h5, h6, p, span, label {
+
+    color: white !important;
+}
+
+/* -----------------------------------
+KPI CARDS
+----------------------------------- */
+
+.kpi-card {
+
+    background: linear-gradient(
+        135deg,
+        rgba(37,99,235,0.35),
+        rgba(124,58,237,0.35)
+    );
+
+    padding: 25px;
+
+    border-radius: 24px;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    text-align: center;
+
+    box-shadow: 0px 8px 30px rgba(0,0,0,0.35);
+
+    margin-bottom: 20px;
+}
+
+/* -----------------------------------
+HERO SECTION
+----------------------------------- */
+
+.hero-box {
+
+    padding: 40px;
+
+    border-radius: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.hero-title {
+
+    font-size: 60px;
+
+    font-weight: bold;
+
+    color: white;
+}
+
+.hero-subtitle {
+
+    font-size: 22px;
+
+    color: #e2e8f0;
+}
+
+/* -----------------------------------
+BUTTONS
+----------------------------------- */
+
+.stButton button {
+
+    background: linear-gradient(
+        90deg,
+        #2563eb,
+        #7c3aed
+    ) !important;
+
+    color: white !important;
+
+    border: none !important;
+
+    border-radius: 14px !important;
+
+    font-weight: bold !important;
+}
+
+/* -----------------------------------
+INPUTS
+----------------------------------- */
+
+.stTextInput input {
+
+    background-color: #111827 !important;
+
+    color: white !important;
+
+    border-radius: 12px !important;
+}
+
+/* -----------------------------------
+SELECTBOX
+----------------------------------- */
+
+.stSelectbox div[data-baseweb="select"] {
+
+    background-color: #111827 !important;
+
+    color: white !important;
+
+    border-radius: 12px !important;
+}
+
+/* -----------------------------------
+TABLES
+----------------------------------- */
+
+[data-testid="stDataFrame"] {
+
+    border-radius: 18px;
+
+    overflow: hidden;
+}

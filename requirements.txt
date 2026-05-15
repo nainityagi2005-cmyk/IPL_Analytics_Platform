@@ -1,0 +1,9 @@
+streamlit
+pandas
+plotly
+scikit-learn
+numpy
+groq
+python-dotenv
+bcrypt
+feedparser
