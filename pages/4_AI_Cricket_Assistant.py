@@ -2,13 +2,14 @@ import streamlit as st
 import pandas as pd
 
 from groq import Groq
+from dotenv import load_dotenv
 
 import os
 
 # -----------------------------------
 # LOAD ENV VARIABLES
 # -----------------------------------
-
+load_dotenv()
 
 
 # -----------------------------------
@@ -17,7 +18,7 @@ import os
 
 client = Groq(
 
-  api_key=st.secrets["GROQ_API_KEY"]
+  api_key = os.getenv("GROQ_API_KEY")
 )
 
 # -----------------------------------
@@ -35,7 +36,7 @@ with open("styles.css") as f:
 # PAGE TITLE
 # -----------------------------------
 
-st.title("🤖 AI Cricket Assistant")
+st.title(" AI Cricket Assistant")
 
 # -----------------------------------
 # HERO SECTION
@@ -47,7 +48,7 @@ st.markdown(
 <div class="hero-box">
 
 <div class="hero-title">
-🤖 AI Cricket Assistant
+ AI Cricket Assistant
 </div>
 
 <div class="hero-subtitle">
@@ -214,7 +215,7 @@ in simple language.
 
 <div class="kpi-card">
 
-<h2>🤖 AI Response</h2>
+<h2> AI Response</h2>
 
 <p>{answer}</p>
 
@@ -230,7 +231,7 @@ in simple language.
 
 st.markdown("---")
 
-st.subheader("🔥 Example Questions")
+st.subheader(" Example Questions")
 
 st.info("Who is the best IPL batsman?")
 
@@ -247,5 +248,5 @@ st.info("Who is best finisher in IPL?")
 st.markdown("---")
 
 st.caption(
-    "🏏 Powered by Groq AI + LLaMA 3"
+    " Powered by Groq AI + LLaMA 3"
 )

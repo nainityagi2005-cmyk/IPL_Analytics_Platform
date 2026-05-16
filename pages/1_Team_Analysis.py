@@ -17,7 +17,7 @@ with open("styles.css") as f:
 # PAGE TITLE
 # -----------------------------------
 
-st.title("🏆 IPL Team Analysis")
+st.title("IPL Team Analysis")
 
 # -----------------------------------
 # HERO SECTION
@@ -29,7 +29,7 @@ st.markdown(
 <div class="hero-box">
 
 <div class="hero-title">
-🏆 Team Analytics
+ Team Analytics
 </div>
 
 <div class="hero-subtitle">
@@ -152,7 +152,7 @@ with col3:
 
 st.markdown("---")
 
-st.subheader("📈 Team Wins")
+st.subheader(" Team Wins")
 
 st.markdown(
     '<div class="chart-box">',
@@ -197,7 +197,7 @@ st.markdown(
 
 st.markdown("---")
 
-st.subheader("📄 Match Data")
+st.subheader(" Match Data")
 
 st.dataframe(
 
@@ -213,5 +213,5 @@ st.dataframe(
 st.markdown("---")
 
 st.caption(
-    "🏏 IPL Team Analytics Dashboard"
+    "IPL Team Analytics Dashboard"
 )

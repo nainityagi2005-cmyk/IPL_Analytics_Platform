@@ -16,7 +16,7 @@ st.set_page_config(
 
     page_title="IPL Analytics",
 
-    page_icon="🏏",
+    page_icon="cricket.jpeg",
 
     layout="wide"
 )
@@ -37,7 +37,7 @@ with open("styles.css") as f:
 
 if not st.session_state.logged_in:
 
-    st.title("🔐 IPL Analytics Login")
+    st.title(" Login To Continue")
 
     auth_mode = st.sidebar.selectbox(
 
@@ -75,13 +75,13 @@ if not st.session_state.logged_in:
             if success:
 
                 st.success(
-                    "✅ Account created!"
+                    " Account created!"
                 )
 
             else:
 
                 st.error(
-                    "❌ Username already exists."
+                    " Username already exists."
                 )
 
     # -----------------------------------
@@ -104,7 +104,7 @@ if not st.session_state.logged_in:
                 st.session_state.logged_in = True
 
                 st.success(
-                    "✅ Login successful!"
+                    " Login successful!"
                 )
 
                 st.rerun()
@@ -112,7 +112,7 @@ if not st.session_state.logged_in:
             else:
 
                 st.error(
-                    "❌ Invalid credentials"
+                    " Invalid credentials"
                 )
 
     st.stop()
@@ -139,7 +139,7 @@ st.markdown(
 <div class="hero-box">
 
 <div class="hero-title">
-🏏 IPL Analytics Platform
+IPL Analytics Platform
 </div>
 
 <div class="hero-subtitle">
@@ -232,15 +232,15 @@ with col3:
 
 st.markdown("---")
 
-st.subheader("🔥 Platform Features")
+st.subheader(" Platform Features")
 
-st.info("🏆 Team Analytics")
+st.info(" Team Analytics")
 
-st.info("👤 Player Profiles")
+st.info(" Player Profiles")
 
-st.info("🔮 Match Winner Prediction")
+st.info(" Match Winner Prediction")
 
-st.info("🤖 AI Cricket Assistant")
+st.info(" AI Cricket Assistant")
 
 # -----------------------------------
 # FOOTER
@@ -249,7 +249,7 @@ st.info("🤖 AI Cricket Assistant")
 st.markdown("---")
 
 st.caption(
-    "🏏 Built with Streamlit, Plotly, Scikit-Learn & Groq AI"
+    " Built with Streamlit, Plotly, Scikit-Learn & Groq AI"
 )
 # -----------------------------------
 # LOGOUT

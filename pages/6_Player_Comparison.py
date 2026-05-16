@@ -17,7 +17,7 @@ with open("styles.css") as f:
 # PAGE TITLE
 # -----------------------------------
 
-st.title("👤⚔️ Player Comparison")
+st.title(" Player Comparison")
 
 # -----------------------------------
 # HERO SECTION
@@ -29,7 +29,7 @@ st.markdown(
 <div class="hero-box">
 
 <div class="hero-title">
-👤⚔️ Player Comparison
+ Player Comparison
 </div>
 
 <div class="hero-subtitle">
@@ -204,7 +204,7 @@ with col4:
 
 st.markdown("---")
 
-st.subheader("📊 Player Comparison")
+st.subheader(" Player Comparison")
 
 fig = go.Figure()
 
@@ -267,7 +267,7 @@ better_player = (
 
 st.success(
 
-    f"🏏 Based on total runs, "
+    f" Based on total runs, "
     f"{better_player} has stronger batting performance."
 )
 
@@ -278,5 +278,5 @@ st.success(
 st.markdown("---")
 
 st.caption(
-    "🏏 IPL Player Comparison Dashboard"
+    " IPL Player Comparison Dashboard"
 )

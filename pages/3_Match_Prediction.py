@@ -24,7 +24,7 @@ with open("styles.css") as f:
 # PAGE TITLE
 # -----------------------------------
 
-st.title("🔮 IPL Match Prediction")
+st.title(" IPL Match Prediction")
 
 # -----------------------------------
 # HERO SECTION
@@ -36,7 +36,7 @@ st.markdown(
 <div class="hero-box">
 
 <div class="hero-title">
-🔮 AI Match Prediction
+ AI Match Prediction
 </div>
 
 <div class="hero-subtitle">
@@ -231,7 +231,7 @@ if st.button("Predict Winner"):
 
 <div class="kpi-card">
 
-<h1>🏆 {result}</h1>
+<h1> {result}</h1>
 
 <p>Predicted Winner</p>
 
@@ -250,5 +250,5 @@ if st.button("Predict Winner"):
 st.markdown("---")
 
 st.caption(
-    "🏏 IPL Match Prediction using Machine Learning"
+    " IPL Match Prediction using Machine Learning"
 )
